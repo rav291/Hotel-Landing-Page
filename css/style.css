@@ -188,7 +188,7 @@ p {
 
 /* About Page Section */
 
-.info-left {
+#about-info .info-left {
   font-size: 18px;
   line-height: 1.5em;
   float: left;
@@ -196,7 +196,7 @@ p {
   min-height: 100%;
 }
 
-.info-right {
+#about-info .info-right {
   float: right;
   width: 50%;
   min-height: 100%;
@@ -243,13 +243,13 @@ p {
 
 /* Contact Form */
 
-.form-group label{
+.form-group label {
   display: block;
   margin-bottom: 10px;
 }
 
 .form-group input,
-.form-group textarea{
+.form-group textarea {
   width: 50%;
   margin-bottom: 10px;
   padding: 5px;
@@ -257,7 +257,7 @@ p {
   border: 1px solid #aaa;
 }
 
-.form-group textarea{
+.form-group textarea {
   height: 200px;
 }
 
